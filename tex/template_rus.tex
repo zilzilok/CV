@@ -1,0 +1,106 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 3.0 (December 17, 2022)
+%
+% This template originates from:
+% https://www.LaTeXTemplates.com
+%
+% Author:
+% Vel (vel@latextemplates.com)
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% License:
+% CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[
+	%a4paper, % Uncomment for A4 paper size (default is US letter)
+	11pt, % Default font size, can use 10pt, 11pt or 12pt
+]{resume} % Use the resume class
+
+\usepackage{ebgaramond} % Use the EB Garamond font
+
+% Для кириллицы
+\usepackage[T2A,T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[russian]{babel}
+\usepackage{tempora}
+
+%------------------------------------------------
+
+\name{Тагир Сафин} % Your name to appear at the top
+
+% You can use the \address command up to 3 times for 3 different addresses or pieces of contact information
+% Any new lines (\\) you use in the \address commands will be converted to symbols, so each address will appear as a single line.
+
+\address{\\ safintagirn@gmail.com} % Contact information
+\address{\\ https://github.com/zilzilok}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Образование}
+	\textbf{Высшая Школа Экономики, Факультет Компьютерных Наук} \hfill {Сентябрь 2018 - Июль 2022} \\
+	\textit{Бакалавр, Программная Инженерия} \hfill \textit{Москва}
+
+	\textbf{Дипломная работа:} Приложение по автоматизации бизнес процессов с применением технологий BPM
+	
+	\textbf{GPA:} 7.57 из 10
+	
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Опыт Работы}
+
+	\begin{rSubsection}{Яндекс}{Апрель 2021 - наст. время}{Разработчик программного обеспечения}{Москва, Белград}
+		\item Разрабатывал и реализовывал функционал в интересах группы качества Яндекс Маркета.
+		\item Поддерживал и улучшал различные микросервисы
+		\item Использовал в работе различные внутренние технологии, утилиты: монорепозиторий и его VCS, система сборки, YT (аналог Hadoop), LogBroker (аналог Apache Kafka), Yandex Object Storage и др.
+	\end{rSubsection}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Технические Навыки}
+
+	\begin{tabular}{@{} >{\bfseries}l @{\hspace{6ex}} l @{}}
+		Основные навыки & Java, Kotlin, Spring Framework \\
+		Понимание в структурировании API & REST, OpenApi (и его составляющие) \\
+		СУБД  &  PostgreSQL, ClickHouse \\
+		Из необычного  & Camunda Platform, Yandex Cloud SpeechKit
+	\end{tabular}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	HOBBY SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Хобби и Интересы}
+
+	Музыка, барабаны.
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
