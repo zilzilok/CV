@@ -1,3 +1,3 @@
 ## CV
 
-- [CV (English version)](CV.pdf)
+- [CV (English version)](CV_en.pdf)
