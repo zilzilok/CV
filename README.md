@@ -1,2 +1,3 @@
-# CV
-My CV and projects
+## CV
+
+- [CV (English version)](CV.pdf)
