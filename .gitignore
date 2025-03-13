@@ -1,4 +1,5 @@
-tex/template*.aux
-tex/template*.log
-tex/template*.pdf
-tex/template*.synctex.gz
+tex/*.aux
+tex/*.log
+tex/*.pdf
+tex/*.out
+tex/*.synctex.gz
